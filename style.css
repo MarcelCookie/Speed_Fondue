@@ -36,12 +36,14 @@ a {
     justify-content: space-between;
     color: white;
     align-items: end;
+    flex-wrap: wrap;
 }
 
 .sub-header .left {
     margin-left: 50px;
     display: flex;
     flex-direction: column;
+    max-width: 600px;
     gap: 10px;
 }
 
@@ -65,11 +67,18 @@ button {
     max-width: 100px;
 }
 
+.sub-header .right {
+    display: flex;
+    flex: 0 1 auto;
+
+}
+
 .right > img {
     max-height: 200px;
     margin-right: 50px;
+    margin-left: 50px;
     margin-bottom: 20px;
-    }
+}
 
 /*TEAM*/
 .team {
