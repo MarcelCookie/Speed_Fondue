@@ -28,6 +28,8 @@ body {
 a {
     text-decoration: none;
     color: white;
+    margin: 0px;
+    padding: 0px;
 }
 
 .sub-header{
@@ -143,7 +145,8 @@ li > img {
     text-align: center;
     font-size: 24px;
     font-style: italic;
-}
+    padding: 50px;
+    }
 
 .inspiration .author {
     font-weight: bold;
@@ -153,11 +156,11 @@ li > img {
 /*ACTION*/
 .action {
     background-color:rgb(252, 70, 3);
-    margin: 50px;
+    margin: 100px;
     padding: 10px;
     display: flex;
     color: white;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-radius: 5px;
 }
