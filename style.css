@@ -31,15 +31,11 @@ a {
     display: flex;
     justify-content: space-between;
     color: white;
+    align-items: end;
 }
 
 .left {
     margin-left: 50px;
-}
-
-.right > img {
-    max-width: 300px;
-    margin-right: 50px;
 }
 
 .left > .title {
@@ -53,9 +49,19 @@ button {
     border-color: white;
     color: white;
     font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
+.left button {
+    margin-bottom: 20px;
+}
 
+.right > img {
+    max-width: 300px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
 
 /*TEAM*/
 .team {
@@ -129,14 +135,11 @@ li > img {
 /*ACTION*/
 .action {
     background-color:rgb(252, 70, 3);
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 50px;
+    margin: 50px;
+    padding: 10px;
     display: flex;
     color: white;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-radius: 5px;
 }
